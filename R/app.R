@@ -13,7 +13,7 @@ sourceDir <- function(directory) {
 }
 
 # 调用 sourceDir() 加载 R/ 目录下的所有文件
-sourceDir("R/")  # 假设 R/ 目录与 app.R 在同一目录下
+sourceDir("./")  # 假设 R/ 目录与 app.R 在同一目录下
 
 # Define UI for application that draws a histogram
 ui <- dashboardPage(
