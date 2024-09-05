@@ -4,7 +4,7 @@
 #' This function starts the Shiny app.
 #'
 #' @export
-
+library(DT)
 
 
 GTAVTools <- function() {
