@@ -8,6 +8,9 @@ library(ggplot2)
 library(ggrepel)
 library(MLmetrics)
 library(ImageGP)
+library(DT)
+
+
 # RandomForest
 ui.randomforest <- function(id) {
   rf <- NS(id)

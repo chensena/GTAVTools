@@ -2,6 +2,10 @@ library(GENIE3)
 library(shinyjs)
 library(minet)
 library(dplyr)
+library(DT)
+
+
+
 
 ui.aracne <- function(id) {
   ar <- NS(id)

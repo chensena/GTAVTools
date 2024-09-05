@@ -1,7 +1,6 @@
 # Heatmap
 library(pheatmap)
 
-
 ui.heatmap <- function(id) {
   hp <- NS(id)
 

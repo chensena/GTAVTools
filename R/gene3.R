@@ -1,6 +1,7 @@
 library(GENIE3)
 library(shinyjs)
 
+
 ui.genie3 <- function(id) {
   ge <- NS(id)
 

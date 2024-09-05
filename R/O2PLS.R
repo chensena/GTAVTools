@@ -3,7 +3,7 @@ library(OmicsPLS)
 library(magrittr)
 library(ggplot2)
 library(ggrepel)
-
+library(DT)
 
 ui.o2pls <- function(id) {
   o2pls <- NS(id)

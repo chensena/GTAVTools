@@ -1,6 +1,6 @@
 # 启动子分析
 
-
+library(DT)
 ui.promotor <- function(id) {
   pc <- NS(id)
 

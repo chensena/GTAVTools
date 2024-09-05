@@ -1,7 +1,6 @@
 # mfuzz
 library(Mfuzz) # biomanger
 
-
 ui.mfuzz <- function(id) {
   mf <- NS(id)
 
