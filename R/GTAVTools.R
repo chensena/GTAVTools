@@ -2,7 +2,7 @@ library(shiny)
 library(shinydashboard)
 library(shinythemes)
 library(bslib)
-
+library(DT)
 
 options(shiny.maxRequestSize = 10 * 1024^3)
 
